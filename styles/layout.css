@@ -1,28 +1,27 @@
-#wrapper{
-width:500px;
+#wrapper {
+    width:500px;
     margin: 0 auto 0 auto;
     border:1px solid #000;
 }
 
-header.main {
-border:1px solid #000;
+.main {
+    border:1px solid #000;
 }
 
 nav, article, aside {
     float:left;
     border:1px solid #000;
 }
+
 nav, aside {
-    width:96px;
-    float:right;
-    border:1px solid #000;
-    clear:right;
-    
+   width:96px; 
 }
-article
-{
+
+article {
     width:298px;
 }
+
 .bottom {
+    border:1px solid #000;
     clear:left;
 }
